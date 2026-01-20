@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aurum Antiquities | Timeless Finds</title>
+  <meta name="description" content="Aurum Antiquities — curated antiques, vintage decor, estate treasures. Visit our showroom and discover timeless pieces with history." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+  <!-- Decorative background layers -->
+  <div class="bg-grain" aria-hidden="true"></div>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <!-- Top progress bar -->
+  <div class="scrollbar" aria-hidden="true">
+    <div class="scrollbar__fill" id="scrollFill"></div>
+  </div>
+
+  <!-- Header -->
+  <header class="header" id="top">
+    <nav class="nav container">
+      <a class="brand" href="#top" aria-label="Aurum Antiquities home">
+        <span class="brand__mark" aria-hidden="true">✦</span>
+        <span class="brand__text">Aurum <em>Antiquities</em></span>
+      </a>
+
+      <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu">
+        <span class="sr-only">Open menu</span>
+        <span class="hamburger" aria-hidden="true"></span>
+      </button>
+
+      <div class="nav__menu" id="navMenu">
+        <a class="nav__link" href="#collection">Collection</a>
+        <a class="nav__link" href="#services">Services</a>
+        <a class="nav__link" href="#gallery">Gallery</a>
+        <a class="nav__link" href="#visit">Visit</a>
+        <a class="nav__link" href="#contact">Contact</a>
+
+        <a class="btn btn--gold nav__cta" href="#visit">
+          Plan Your Visit
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <main>
+    <section class="hero">
+      <!-- Motion ornaments (parallax) -->
+      <div class="hero__orn hero__orn--ring" data-parallax="0.25" aria-hidden="true"></div>
+      <div class="hero__orn hero__orn--disc" data-parallax="0.18" aria-hidden="true"></div>
+      <div class="hero__orn hero__orn--line" data-parallax="0.12" aria-hidden="true"></div>
+
+      <div class="container hero__grid">
+        <div class="hero__copy reveal">
+          <p class="kicker">
+            <span class="kicker__dot" aria-hidden="true"></span>
+            Curated antiques • vintage decor • estate treasures
+          </p>
+
+          <h1 class="hero__title">
+            Timeless pieces with
+            <span class="gold">stories worth keeping.</span>
+          </h1>
+
+          <p class="hero__sub">
+            Step into a showroom where every object carries character — from gilded mirrors and rare prints
+            to handcrafted furniture and heirloom curiosities.
+          </p>
+
+          <div class="hero__actions">
+            <a class="btn btn--gold" href="#collection">Explore the Collection</a>
+            <a class="btn btn--ghost" href="#visit">See Location & Hours</a>
+          </div>
+
+          <div class="hero__stats">
+            <div class="stat">
+              <div class="stat__num">1,200+</div>
+              <div class="stat__label">pieces rotated monthly</div>
+            </div>
+            <div class="stat">
+              <div class="stat__num">4.9★</div>
+              <div class="stat__label">local reviews</div>
+            </div>
+            <div class="stat">
+              <div class="stat__num">Est. 1998</div>
+              <div class="stat__label">family-owned</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__frame reveal">
+          <div class="frame">
+            <div class="frame__top">
+              <span class="chip">New arrivals</span>
+              <span class="frame__hint">Scroll to reveal</span>
+            </div>
+
+            <!-- Replace with your real images later -->
+            <div class="frame__media">
+              <div class="media media--one" role="img" aria-label="Antique gold framed mirror"></div>
+              <div class="media media--two" role="img" aria-label="Vintage cabinet details"></div>
+              <div class="media media--three" role="img" aria-label="Antique brass and books"></div>
+            </div>
+
+            <div class="frame__bottom">
+              <div class="frame__meta">
+                <strong>Today’s Feature</strong>
+                <span>Victorian brass desk set • 1880s</span>
+              </div>
+              <a class="link" href="#contact">Request availability →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Marquee -->
+      <div class="marquee" aria-label="Highlights">
+        <div class="marquee__track">
+          <span>Rare Finds</span><span aria-hidden="true">•</span>
+          <span>Authenticity Guaranteed</span><span aria-hidden="true">•</span>
+          <span>Appraisals</span><span aria-hidden="true">•</span>
+          <span>Estate Buying</span><span aria-hidden="true">•</span>
+          <span>Restoration Partners</span><span aria-hidden="true">•</span>
+          <span>Worldwide Shipping</span><span aria-hidden="true">•</span>
+          <span>Rare Finds</span><span aria-hidden="true">•</span>
+          <span>Authenticity Guaranteed</span><span aria-hidden="true">•</span>
+          <span>Appraisals</span><span aria-hidden="true">•</span>
+          <span>Estate Buying</span><span aria-hidden="true">•</span>
+          <span>Restoration Partners</span><span aria-hidden="true">•</span>
+          <span>Worldwide Shipping</span><span aria-hidden="true">•</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Collection -->
+    <section class="section" id="collection">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2 class="section__title">A collection built to stop people in their tracks</h2>
+          <p class="section__sub">
+            We curate by era, craft, and feeling — so you’ll always find something that looks like it belongs in your life.
+          </p>
+        </div>
+
+        <div class="cards">
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">⌁</div>
+            <h3>Furniture & Statement Pieces</h3>
+            <p>Armoires, cabinets, desks, and conversation starters restored with respect to history.</p>
+            <ul class="bullets">
+              <li>Victorian • Art Deco • Mid-century</li>
+              <li>Solid wood, brass, marble</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">✦</div>
+            <h3>Decor, Mirrors & Lighting</h3>
+            <p>Gold leaf frames, crystal chandeliers, and moody lamps that transform a room instantly.</p>
+            <ul class="bullets">
+              <li>Gallery-grade framing</li>
+              <li>Period-correct finishes</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">⟡</div>
+            <h3>Books, Art & Curiosities</h3>
+            <p>Prints, maps, first editions, and objects you won’t see twice — because they’re gone fast.</p>
+            <ul class="bullets">
+              <li>Authenticated sourcing</li>
+              <li>New arrivals weekly</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="callout reveal">
+          <div>
+            <h3>Want something specific?</h3>
+            <p>Tell us the era, material, and budget — we’ll pull options before you arrive.</p>
+          </div>
+          <a class="btn btn--gold" href="#contact">Send a Wishlist</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section section--alt" id="services">
+      <div class="container">
+        <div class="split">
+          <div class="split__left reveal">
+            <h2 class="section__title">Services that make collecting easy</h2>
+            <p class="section__sub">
+              Whether you’re furnishing a home, styling a set, or downsizing an estate — we handle it with discretion.
+            </p>
+
+            <div class="pillgrid">
+              <div class="pill reveal">
+                <strong>Appraisals</strong>
+                <span>Verbal + written options</span>
+              </div>
+              <div class="pill reveal">
+                <strong>Estate Buying</strong>
+                <span>Fast, respectful offers</span>
+              </div>
+              <div class="pill reveal">
+                <strong>Consignment</strong>
+                <span>Selective, high-trust</span>
+              </div>
+              <div class="pill reveal">
+                <strong>Delivery</strong>
+                <span>Local white-glove</span>
+              </div>
+              <div class="pill reveal">
+                <strong>Shipping</strong>
+                <span>Careful packing worldwide</span>
+              </div>
+              <div class="pill reveal">
+                <strong>Sourcing</strong>
+                <span>We hunt rare requests</span>
+              </div>
+            </div>
+
+            <a class="link reveal" href="#contact">Ask about a service →</a>
+          </div>
+
+          <div class="split__right reveal">
+            <div class="panel">
+              <div class="panel__badge">Collector’s Note</div>
+              <h3>Why people drive to visit us</h3>
+              <p>
+                Photos don’t capture the glow of patina or the weight of real craftsmanship.
+                Our showroom is designed for discovery — quiet, warm, and full of surprises.
+              </p>
+
+              <div class="steps">
+                <div class="step">
+                  <span class="step__num">01</span>
+                  <div>
+                    <strong>Walk the gallery</strong>
+                    <p>We stage by era + vibe so browsing feels effortless.</p>
+                  </div>
+                </div>
+                <div class="step">
+                  <span class="step__num">02</span>
+                  <div>
+                    <strong>Ask for the story</strong>
+                    <p>We’ll share provenance and care guidance.</p>
+                  </div>
+                </div>
+                <div class="step">
+                  <span class="step__num">03</span>
+                  <div>
+                    <strong>Leave with a treasure</strong>
+                    <p>Wrap, delivery, or shipping — handled.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="panel__cta">
+                <a class="btn btn--gold" href="#visit">Visit the Showroom</a>
+                <a class="btn btn--ghost" href="#gallery">View the Gallery</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="section" id="gallery">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2 class="section__title">Gallery</h2>
+          <p class="section__sub">Tap any image for a closer look. Replace these placeholders with your own photos anytime.</p>
+        </div>
+
+        <div class="masonry">
+          <button class="shot reveal" data-full="one" aria-label="Open image 1"><span class="shot__tag">Mirrors</span></button>
+          <button class="shot reveal" data-full="two" aria-label="Open image 2"><span class="shot__tag">Furniture</span></button>
+          <button class="shot reveal" data-full="three" aria-label="Open image 3"><span class="shot__tag">Lighting</span></button>
+          <button class="shot reveal" data-full="four" aria-label="Open image 4"><span class="shot__tag">Books</span></button>
+          <button class="shot reveal" data-full="five" aria-label="Open image 5"><span class="shot__tag">Curios</span></button>
+          <button class="shot reveal" data-full="six" aria-label="Open image 6"><span class="shot__tag">Art</span></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section section--alt" aria-label="Testimonials">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2 class="section__title">What visitors say</h2>
+          <p class="section__sub">Short, punchy social proof that makes people want to come in.</p>
+        </div>
+
+        <div class="slider reveal" id="slider">
+          <div class="slider__track" id="sliderTrack">
+            <article class="quote">
+              <p>“I walked in for a lamp and left with a piece that looks like it’s been in my family for decades.”</p>
+              <div class="quote__by">— Local collector</div>
+            </article>
+            <article class="quote">
+              <p>“Best curated shop in the city. The staging is gorgeous, and the staff actually knows the history.”</p>
+              <div class="quote__by">— Interior designer</div>
+            </article>
+            <article class="quote">
+              <p>“Worth the drive. You feel the quality immediately — photos don’t do it justice.”</p>
+              <div class="quote__by">— Weekend visitor</div>
+            </article>
+          </div>
+
+          <div class="slider__controls">
+            <button class="iconbtn" id="prev" aria-label="Previous testimonial">←</button>
+            <div class="dots" id="dots" aria-label="Testimonial dots"></div>
+            <button class="iconbtn" id="next" aria-label="Next testimonial">→</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Visit -->
+    <section class="section" id="visit">
+      <div class="container">
+        <div class="visit">
+          <div class="visit__left reveal">
+            <h2 class="section__title">Visit the showroom</h2>
+            <p class="section__sub">
+              The best pieces are the ones you see in person — come for the atmosphere, leave with a story.
+            </p>
+
+            <div class="visit__info">
+              <div class="info">
+                <strong>Address</strong>
+                <span>123 Heritage Ave, Your City, ST 00000</span>
+              </div>
+              <div class="info">
+                <strong>Hours</strong>
+                <span>Tue–Sat: 11–6 • Sun: 12–5 • Mon: Closed</span>
+              </div>
+              <div class="info">
+                <strong>Phone</strong>
+                <span>(000) 000-0000</span>
+              </div>
+            </div>
+
+            <div class="visit__actions">
+              <a class="btn btn--gold" href="https://maps.google.com/?q=Antique%20Store" target="_blank" rel="noreferrer">
+                Open in Maps
+              </a>
+              <a class="btn btn--ghost" href="#contact">Call / Message Us</a>
+            </div>
+
+            <p class="fineprint">
+              Tip: Bring a photo of your space — we’ll help you match era, color, and scale.
+            </p>
+          </div>
+
+          <div class="visit__right reveal">
+            <div class="mapcard" role="img" aria-label="Map preview placeholder"></div>
+            <div class="mapnote">
+              <span class="mapnote__spark" aria-hidden="true">✦</span>
+              <p><strong>Parking:</strong> Street parking + nearby lot. Easy load-out support on request.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section--alt" id="contact">
+      <div class="container">
+        <div class="contact">
+          <div class="contact__left reveal">
+            <h2 class="section__title">Get in touch</h2>
+            <p class="section__sub">
+              Ask about availability, request a hold, or send a wishlist. We reply quickly during business hours.
+            </p>
+
+            <div class="contact__mini">
+              <div class="mini">
+                <strong>Email</strong>
+                <span>hello@aurumantiquities.com</span>
+              </div>
+              <div class="mini">
+                <strong>Instagram</strong>
+                <span>@aurumantiquities</span>
+              </div>
+            </div>
+          </div>
+
+          <form class="form reveal" action="#" method="POST">
+            <!-- If you want this to actually send emails on GitHub Pages:
+                 1) create a Formspree form
+                 2) replace action="#" with your Formspree endpoint
+            -->
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" placeholder="Your name" required>
+            </label>
+
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" placeholder="you@email.com" required>
+            </label>
+
+            <label>
+              <span>What are you looking for?</span>
+              <select name="topic" required>
+                <option value="" disabled selected>Select one</option>
+                <option>Availability / Hold request</option>
+                <option>Wishlist sourcing</option>
+                <option>Appraisal</option>
+                <option>Estate buying</option>
+                <option>Delivery / Shipping</option>
+              </select>
+            </label>
+
+            <label>
+              <span>Message</span>
+              <textarea name="message" rows="5" placeholder="Tell us the era, material, size, budget…"></textarea>
+            </label>
+
+            <button class="btn btn--gold" type="submit">Send Message</button>
+            <p class="fineprint">No spam. Just a real reply from a real person.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <div class="brand brand--footer">
+          <span class="brand__mark" aria-hidden="true">✦</span>
+          <span class="brand__text">Aurum <em>Antiquities</em></span>
+        </div>
+        <p class="footer__blurb">
+          Curated antiques and vintage decor with authenticity, elegance, and warmth.
+        </p>
+      </div>
+
+      <div class="footer__links">
+        <a href="#collection">Collection</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#visit">Visit</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer__small">
+        <p>© <span id="year"></span> Aurum Antiquities. All rights reserved.</p>
+        <a class="link" href="#top">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox__close" id="lbClose" aria-label="Close">✕</button>
+    <div class="lightbox__img" id="lbImg" role="img" aria-label="Expanded gallery image"></div>
+    <div class="lightbox__caption" id="lbCap"></div>
+  </div>
+
+  <button class="toTop" id="toTop" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
