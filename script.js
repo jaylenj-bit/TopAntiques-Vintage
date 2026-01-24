@@ -80,10 +80,10 @@ const lbCap = $("#lbCap");
 
 const mapCaption = {
   one: "Gold-framed mirrors & classic decor",
-  two: "Furniture with craftsmanship you can feel",
-  three: "Lighting that sets the room’s mood",
+  two: "Lighting that sets the room’s mood",
+  three: "Vintage items with stories you can feel",
   four: "Books, prints & paper ephemera",
-  five: "Curiosities with real patina",
+  five: "Limited edition shoes",
   six: "Art & statement pieces"
 };
 
