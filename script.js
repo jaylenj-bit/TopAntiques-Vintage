@@ -92,11 +92,11 @@ const bgForShot = (btn) => {
   const idx = $$(".shot").indexOf(btn);
  const sources = [
   "monalisa.png", // Paintings
-  "whatever.png", // Chandelier
-  "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=2200&q=80", // Vintage
+  "chandelier_light_bulbs_light.jpg", // Chandelier
+  "vintage.jpg", // Vintage
   "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=2200&q=80", // Books
-  "https://images.unsplash.com/photo-1528701800489-20be3c15e646?auto=format&fit=crop&w=2200&q=80", // Shoes
-  "https://images.unsplash.com/photo-1520697830682-bbb6e85e2b0d?auto=format&fit=crop&w=2200&q=80"  // Art
+  "vintshoes.jpg", // Shoes
+  "art.jpg"  // Art
 ];
 
   return sources[idx] || sources[0];
