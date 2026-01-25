@@ -91,7 +91,7 @@ const bgForShot = (btn) => {
   // Pull the background-image from the ::before is hard, so we mirror sources here:
   const idx = $$(".shot").indexOf(btn);
  const sources = [
-  "https://images.unsplash.com/photo-1526481280695-3c687fd643ed?auto=format&fit=crop&w=2200&q=80", // Paintings
+  "monalisa.png", // Paintings
   "https://images.unsplash.com/photo-1541963463532-d68292c34b19?auto=format&fit=crop&w=2200&q=80", // Chandelier
   "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=2200&q=80", // Vintage
   "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=2200&q=80", // Books
