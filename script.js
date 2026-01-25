@@ -92,7 +92,7 @@ const bgForShot = (btn) => {
   const idx = $$(".shot").indexOf(btn);
  const sources = [
   "monalisa.png", // Paintings
-  "https://images.unsplash.com/photo-1541963463532-d68292c34b19?auto=format&fit=crop&w=2200&q=80", // Chandelier
+  "whatever.png", // Chandelier
   "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=2200&q=80", // Vintage
   "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=2200&q=80", // Books
   "https://images.unsplash.com/photo-1528701800489-20be3c15e646?auto=format&fit=crop&w=2200&q=80", // Shoes
