@@ -92,11 +92,11 @@ const bgForShot = (btn) => {
   const idx = $$(".shot").indexOf(btn);
   const sources = [
     "https://images.unsplash.com/photo-1526481280695-3c687fd643ed?auto=format&fit=crop&w=2200&q=80",
-    "https://images.unsplash.com/photo-1528747045269-390fe33c19f2?auto=format&fit=crop&w=2200&q=80",
+    "https://images.unsplash.com/photo-1541963463532-d68292c34b19?auto=format&fit=crop&w=2200&q=80",
     "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=2200&q=80",
-    "https://images.unsplash.com/photo-1459156212016-c812468e2115?auto=format&fit=crop&w=2200&q=80",
-    "https://images.unsplash.com/photo-1520963568064-54d002d8f1f4?auto=format&fit=crop&w=2200&q=80",
-    "https://images.unsplash.com/photo-1515542706656-8e6ef17a1521?auto=format&fit=crop&w=2200&q=80"
+    "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=2200&q=80",
+    "https://images.unsplash.com/photo-1528701800489-20be3c15e646?auto=format&fit=crop&w=2200&q=80",
+    "https://images.unsplash.com/photo-1520697830682-bbb6e85e2b0d?auto=format&fit=crop&w=2200&q=80"
   ];
   return sources[idx] || sources[0];
 };
